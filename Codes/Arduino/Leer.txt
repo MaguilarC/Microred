@@ -1,0 +1,7 @@
+Estos codigos se realizaron sin considerar el uso en conjunto con 
+la interfraz gráfica creada en Matlab, puesto que la trama de la 
+comunicacion Serial está configurada de otra forma. 
+
+En la carpeta "Matlab" se puede encontrar códigos en los cuales se 
+utiliza una trama Serial compatible con la interfaz programada en 
+Matlab.

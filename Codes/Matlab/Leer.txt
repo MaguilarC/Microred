@@ -1,0 +1,7 @@
+Para ejecutar la interfaz grafica se deben agregar
+dos ubicaciones al entorno de Matlab a traves de
+las sentencias:
+
+addpath('ruta de ubicacion\Interfaz grafica')
+
+addpath('ruta de ubicacion\Interfaz grafica\icon')

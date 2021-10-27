@@ -1,0 +1,25 @@
+vector=[None]*30
+vector=";1#5;2#10;16#20;4#30;5#40;3#6"
+x=vector.split(";")
+print(x)
+y=[0]*16
+ref=[0]*16
+i=0
+j=0
+n=0
+while i<len(x):
+    if (len(x[i].split("#")))>1:
+        y[j]=x[i].split("#")
+        j=j+1
+        
+    i=i+1
+
+print(y)
+
+while n<j:
+    
+    ind=int(y[n][0])-1
+    ref[ind]=int(y[n][1])
+    n=n+1
+    
+print(ref)  

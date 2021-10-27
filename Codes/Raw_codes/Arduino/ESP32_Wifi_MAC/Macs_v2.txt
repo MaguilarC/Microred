@@ -1,0 +1,42 @@
+
+Módulo Master:
+
+AC:67:B2:3B:C8:EC
+
+Módulo 1:
+
+AC:67:B2:3B:DE:F4
+
+Módulo 2:
+
+AC:67:B2:3C:02:30
+
+Módulo 3:
+
+AC:67:B2:3B:C5:00
+
+Módulo 4:
+
+AC:67:B2:3B:E3:80
+
+Módulo 5:
+
+AC:67:B2:3B:FD:00
+
+Módulo 6:
+
+AC:67:B2:3C:21:2C
+
+Módulo 7:
+
+AC:67:B2:3B:FF:50
+
+Módulo 8:
+
+AC:67:B2:3B:E0:1C
+
+
+
+
+
+

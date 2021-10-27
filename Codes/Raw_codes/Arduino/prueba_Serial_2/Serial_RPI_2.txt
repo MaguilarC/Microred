@@ -1,0 +1,24 @@
+import serial
+
+ser= serial.Serial('/dev/ttyAMA1',9600)
+
+i=0
+
+print ('Iniciando')
+while i<10:
+    if(ser.in_waiting>0):
+        line= ser.readline().decode('ascii').rstrip()
+        x=line.split(";")
+        print(line)
+	print(x[0])
+	print(x[1])
+	print(x[2])
+        i=i+1
+        a = 230
+        b = 45
+        c = 10
+        buf = "%d;%d;%d;" % (a,b,c)
+        ser.write(buf.encode())
+    
+ser.close()
+print ('Fin')

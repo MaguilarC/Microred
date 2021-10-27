@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-07-23T01:40:16Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.599594,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "borrador_1"
+        },
+        "Owner": "  <>",
+        "Size": {
+            "X": 350,
+            "Y": 310.01
+        }
+    }
+}

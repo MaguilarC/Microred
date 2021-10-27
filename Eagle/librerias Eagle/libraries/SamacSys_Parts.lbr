@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="57478434">
+<description>&lt;b&gt;5747843-4&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="25.512" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="2" x="22.754" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="3" x="19.995" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="4" x="17.238" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="5" x="14.480" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="6" x="11.722" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="7" x="8.963" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="8" x="6.206" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="9" x="3.448" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="10" x="0.690" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="11" x="-2.068" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="12" x="-4.826" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="13" x="-7.585" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="14" x="-10.342" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="15" x="-13.101" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="16" x="-15.858" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="17" x="-18.617" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="18" x="-21.375" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="19" x="-24.133" y="-7.040" drill="0.75" diameter="1.200" />
+<pad name="20" x="24.133" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="21" x="21.375" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="22" x="18.617" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="23" x="15.858" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="24" x="13.101" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="25" x="10.343" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="26" x="7.585" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="27" x="4.827" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="28" x="2.069" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="29" x="-0.689" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="30" x="-3.447" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="31" x="-6.205" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="32" x="-8.963" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="33" x="-11.721" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="34" x="-14.480" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="35" x="-17.238" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="36" x="-19.995" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="37" x="-22.754" y="-4.200" drill="0.75" diameter="1.200" />
+<pad name="38" x="-29.648" y="-5.620" drill="3.26" diameter="4.890" />
+<pad name="39" x="29.649" y="-5.620" drill="3.26" diameter="4.890" />
+<text x="0.000" y="0.000" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0.000" y="0.000" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-34.66" y1="3.88" x2="34.66" y2="3.88" width="0.2" layer="51" />
+<wire x1="34.66" y1="3.88" x2="34.66" y2="-9.08" width="0.2" layer="51" />
+<wire x1="34.66" y1="-9.08" x2="-34.66" y2="-9.08" width="0.2" layer="51" />
+<wire x1="-34.66" y1="-9.08" x2="-34.66" y2="3.88" width="0.2" layer="51" />
+<wire x1="-35.66" y1="10.72" x2="35.66" y2="10.72" width="0.1" layer="51" />
+<wire x1="35.66" y1="10.72" x2="35.66" y2="-10.72" width="0.1" layer="51" />
+<wire x1="35.66" y1="-10.72" x2="-35.66" y2="-10.72" width="0.1" layer="51" />
+<wire x1="-35.66" y1="-10.72" x2="-35.66" y2="10.72" width="0.1" layer="51" />
+<wire x1="-27.71" y1="3.88" x2="-27.71" y2="9.72" width="0.2" layer="51" />
+<wire x1="-27.71" y1="9.72" x2="27.71" y2="9.72" width="0.2" layer="51" />
+<wire x1="27.71" y1="9.72" x2="27.71" y2="3.88" width="0.2" layer="51" />
+<wire x1="-34.66" y1="-9.08" x2="-34.66" y2="3.88" width="0.1" layer="21" />
+<wire x1="-34.66" y1="3.88" x2="-27.71" y2="3.88" width="0.1" layer="21" />
+<wire x1="-27.71" y1="3.88" x2="-27.71" y2="9.72" width="0.1" layer="21" />
+<wire x1="-27.71" y1="9.72" x2="27.71" y2="9.72" width="0.1" layer="21" />
+<wire x1="27.71" y1="9.72" x2="27.71" y2="3.88" width="0.1" layer="21" />
+<wire x1="27.71" y1="3.88" x2="34.66" y2="3.88" width="0.1" layer="21" />
+<wire x1="34.66" y1="3.88" x2="34.66" y2="-9.08" width="0.1" layer="21" />
+<wire x1="34.66" y1="-9.08" x2="-34.5" y2="-9.08" width="0.1" layer="21" />
+<wire x1="25.4" y1="-9.62" x2="25.4" y2="-9.62" width="0.2" layer="21" />
+<wire x1="25.400" y1="-9.620" x2="25.600" y2="-9.620" width="0.2" layer="21" curve="-180.0" />
+<wire x1="25.6" y1="-9.62" x2="25.6" y2="-9.62" width="0.2" layer="21" />
+<wire x1="25.600" y1="-9.620" x2="25.400" y2="-9.620" width="0.2" layer="21" curve="-180.0" />
+</package>
+<package name="TO255P460X1020X2008-3P">
+<description>&lt;b&gt;3-Pin TO-220&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.32" diameter="1.98" shape="square" />
+<pad name="2" x="2.55" y="0" drill="1.32" diameter="1.98" />
+<pad name="3" x="5.1" y="0" drill="1.32" diameter="1.98" />
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-2.9" y1="3.32" x2="8" y2="3.32" width="0.05" layer="51" />
+<wire x1="8" y1="3.32" x2="8" y2="-1.78" width="0.05" layer="51" />
+<wire x1="8" y1="-1.78" x2="-2.9" y2="-1.78" width="0.05" layer="51" />
+<wire x1="-2.9" y1="-1.78" x2="-2.9" y2="3.32" width="0.05" layer="51" />
+<wire x1="-2.65" y1="3.07" x2="7.75" y2="3.07" width="0.1" layer="51" />
+<wire x1="7.75" y1="3.07" x2="7.75" y2="-1.53" width="0.1" layer="51" />
+<wire x1="7.75" y1="-1.53" x2="-2.65" y2="-1.53" width="0.1" layer="51" />
+<wire x1="-2.65" y1="-1.53" x2="-2.65" y2="3.07" width="0.1" layer="51" />
+<wire x1="-2.65" y1="1.795" x2="-1.375" y2="3.07" width="0.1" layer="51" />
+<wire x1="7.75" y1="-1.53" x2="7.75" y2="3.07" width="0.2" layer="21" />
+<wire x1="7.75" y1="3.07" x2="-2.65" y2="3.07" width="0.2" layer="21" />
+<wire x1="-2.65" y1="3.07" x2="-2.65" y2="0" width="0.2" layer="21" />
+</package>
+<package name="DIOAD4425W130L885D885">
+<description>&lt;b&gt;10A10&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.25" shape="square" />
+<pad name="2" x="44.3" y="0" drill="1.5" diameter="2.25" />
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-1.375" y1="4.775" x2="45.675" y2="4.775" width="0.05" layer="51" />
+<wire x1="45.675" y1="4.775" x2="45.675" y2="-4.775" width="0.05" layer="51" />
+<wire x1="45.675" y1="-4.775" x2="-1.375" y2="-4.775" width="0.05" layer="51" />
+<wire x1="-1.375" y1="-4.775" x2="-1.375" y2="4.775" width="0.05" layer="51" />
+<wire x1="17.725" y1="4.425" x2="26.575" y2="4.425" width="0.1" layer="51" />
+<wire x1="26.575" y1="4.425" x2="26.575" y2="-4.425" width="0.1" layer="51" />
+<wire x1="26.575" y1="-4.425" x2="17.725" y2="-4.425" width="0.1" layer="51" />
+<wire x1="17.725" y1="-4.425" x2="17.725" y2="4.425" width="0.1" layer="51" />
+<wire x1="17.725" y1="0" x2="22.15" y2="4.425" width="0.1" layer="51" />
+<wire x1="0" y1="0" x2="17.725" y2="0" width="0.1" layer="51" />
+<wire x1="26.575" y1="0" x2="44.3" y2="0" width="0.1" layer="51" />
+<wire x1="17.725" y1="4.425" x2="26.575" y2="4.425" width="0.2" layer="21" />
+<wire x1="26.575" y1="4.425" x2="26.575" y2="-4.425" width="0.2" layer="21" />
+<wire x1="26.575" y1="-4.425" x2="17.725" y2="-4.425" width="0.2" layer="21" />
+<wire x1="17.725" y1="-4.425" x2="17.725" y2="4.425" width="0.2" layer="21" />
+<wire x1="17.725" y1="0" x2="22.15" y2="4.425" width="0.2" layer="21" />
+<wire x1="1.475" y1="0" x2="17.725" y2="0" width="0.2" layer="21" />
+<wire x1="26.575" y1="0" x2="42.825" y2="0" width="0.2" layer="21" />
+</package>
+<package name="TO270P460X1020X2008-3P">
+<description>&lt;b&gt;TO-220 TYPE A&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.32" diameter="1.98" shape="square" />
+<pad name="2" x="2.7" y="0" drill="1.32" diameter="1.98" />
+<pad name="3" x="5.4" y="0" drill="1.32" diameter="1.98" />
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-2.75" y1="3.32" x2="8.15" y2="3.32" width="0.05" layer="51" />
+<wire x1="8.15" y1="3.32" x2="8.15" y2="-1.78" width="0.05" layer="51" />
+<wire x1="8.15" y1="-1.78" x2="-2.75" y2="-1.78" width="0.05" layer="51" />
+<wire x1="-2.75" y1="-1.78" x2="-2.75" y2="3.32" width="0.05" layer="51" />
+<wire x1="-2.5" y1="3.07" x2="7.9" y2="3.07" width="0.1" layer="51" />
+<wire x1="7.9" y1="3.07" x2="7.9" y2="-1.53" width="0.1" layer="51" />
+<wire x1="7.9" y1="-1.53" x2="-2.5" y2="-1.53" width="0.1" layer="51" />
+<wire x1="-2.5" y1="-1.53" x2="-2.5" y2="3.07" width="0.1" layer="51" />
+<wire x1="-2.5" y1="1.72" x2="-1.15" y2="3.07" width="0.1" layer="51" />
+<wire x1="7.9" y1="-1.53" x2="7.9" y2="3.07" width="0.2" layer="21" />
+<wire x1="7.9" y1="3.07" x2="-2.5" y2="3.07" width="0.2" layer="21" />
+<wire x1="-2.5" y1="3.07" x2="-2.5" y2="0" width="0.2" layer="21" />
+</package>
+</packages>
+<symbols>
+<symbol name="5747843-4">
+<wire x1="5.08" y1="7.62" x2="55.88" y2="7.62" width="0.254" layer="94" />
+<wire x1="55.88" y1="-7.62" x2="55.88" y2="7.62" width="0.254" layer="94" />
+<wire x1="55.88" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<text x="57.15" y="12.7" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="57.15" y="10.16" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="53.34" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="2" x="50.8" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="3" x="48.26" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="4" x="45.72" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="5" x="43.18" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="6" x="40.64" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="7" x="38.1" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="8" x="35.56" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="9" x="33.02" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="10" x="30.48" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="11" x="27.94" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="12" x="25.4" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="13" x="22.86" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="14" x="20.32" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="15" x="17.78" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="16" x="15.24" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="17" x="12.7" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="18" x="10.16" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="19" x="7.62" y="-12.7" length="middle" direction="io" rot="R90" />
+<pin name="20" x="50.8" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="21" x="48.26" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="22" x="45.72" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="23" x="43.18" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="24" x="40.64" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="25" x="38.1" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="26" x="35.56" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="27" x="33.02" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="28" x="30.48" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="29" x="27.94" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="30" x="25.4" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="31" x="22.86" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="32" x="20.32" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="33" x="17.78" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="34" x="15.24" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="35" x="12.7" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="36" x="10.16" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="37" x="7.62" y="12.7" length="middle" direction="io" rot="R270" />
+<pin name="38" x="0" y="0" length="middle" direction="io" rot="R0" />
+<pin name="39" x="60.96" y="0" length="middle" direction="io" rot="R180" />
+</symbol>
+<symbol name="LM317T">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94" />
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94" />
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<text x="21.59" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="21.59" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ADJUST" x="0" y="0" length="middle" direction="io" rot="R0" />
+<pin name="OUTPUT" x="0" y="-2.54" length="middle" direction="io" rot="R0" />
+<pin name="INPUT" x="0" y="-5.08" length="middle" direction="io" rot="R0" />
+</symbol>
+<symbol name="10A10-T">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" />
+<text x="11.43" y="5.08" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="11.43" y="2.54" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0" />
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" direction="io" rot="R180" />
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0" />
+<vertex x="10.16" y="2.54" />
+<vertex x="10.16" y="-2.54" />
+</polygon>
+</symbol>
+<symbol name="TYN608RG">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94" />
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="2.54" width="0.254" layer="94" />
+<wire x1="15.24" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94" />
+<text x="16.51" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="16.51" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" length="middle" direction="io" rot="R0" />
+<pin name="A" x="0" y="-2.54" length="middle" direction="io" rot="R0" />
+<pin name="G" x="0" y="-5.08" length="middle" direction="io" rot="R0" />
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5747843-4" prefix="J">
+<description>&lt;b&gt;TE Connectivity 37 Way Right Angle Through Hole Mount PCB D-sub Connector Plug, 2.75mm Pitch&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer Drawing5747843EpdfEnglishENG_CD_5747843_E.pdf5747843-4"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="5747843-4" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="57478434">
+<connects>
+<connect gate="G$1" pin="1" pad="1" />
+<connect gate="G$1" pin="2" pad="2" />
+<connect gate="G$1" pin="3" pad="3" />
+<connect gate="G$1" pin="4" pad="4" />
+<connect gate="G$1" pin="5" pad="5" />
+<connect gate="G$1" pin="6" pad="6" />
+<connect gate="G$1" pin="7" pad="7" />
+<connect gate="G$1" pin="8" pad="8" />
+<connect gate="G$1" pin="9" pad="9" />
+<connect gate="G$1" pin="10" pad="10" />
+<connect gate="G$1" pin="11" pad="11" />
+<connect gate="G$1" pin="12" pad="12" />
+<connect gate="G$1" pin="13" pad="13" />
+<connect gate="G$1" pin="14" pad="14" />
+<connect gate="G$1" pin="15" pad="15" />
+<connect gate="G$1" pin="16" pad="16" />
+<connect gate="G$1" pin="17" pad="17" />
+<connect gate="G$1" pin="18" pad="18" />
+<connect gate="G$1" pin="19" pad="19" />
+<connect gate="G$1" pin="20" pad="20" />
+<connect gate="G$1" pin="21" pad="21" />
+<connect gate="G$1" pin="22" pad="22" />
+<connect gate="G$1" pin="23" pad="23" />
+<connect gate="G$1" pin="24" pad="24" />
+<connect gate="G$1" pin="25" pad="25" />
+<connect gate="G$1" pin="26" pad="26" />
+<connect gate="G$1" pin="27" pad="27" />
+<connect gate="G$1" pin="28" pad="28" />
+<connect gate="G$1" pin="29" pad="29" />
+<connect gate="G$1" pin="30" pad="30" />
+<connect gate="G$1" pin="31" pad="31" />
+<connect gate="G$1" pin="32" pad="32" />
+<connect gate="G$1" pin="33" pad="33" />
+<connect gate="G$1" pin="34" pad="34" />
+<connect gate="G$1" pin="35" pad="35" />
+<connect gate="G$1" pin="36" pad="36" />
+<connect gate="G$1" pin="37" pad="37" />
+<connect gate="G$1" pin="38" pad="38" />
+<connect gate="G$1" pin="39" pad="39" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="571-5747843-4" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747843-4/?qs=x6EjVpvqMVN1V8aLO9%2Fcmg%3D%3D" constant="no" />
+<attribute name="Manufacturer_Name" value="TE Connectivity" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="5747843-4" constant="no" />
+<attribute name="Description" value="TE Connectivity 37 Way Right Angle Through Hole Mount PCB D-sub Connector Plug, 2.75mm Pitch" constant="no" />
+<attribute name="Height" value="12mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM317T" prefix="IC">
+<description>&lt;b&gt;Standard Regulator 1.2V to 37V 1.5A STMicroelectronics LM317T, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000455.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM317T" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="TO255P460X1020X2008-3P">
+<connects>
+<connect gate="G$1" pin="ADJUST" pad="1" />
+<connect gate="G$1" pin="OUTPUT" pad="2" />
+<connect gate="G$1" pin="INPUT" pad="3" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="511-LM317T" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LM317T?qs=swDD%252BF%252Bps7c8uLyY%252B3mJJw%3D%3D" constant="no" />
+<attribute name="Manufacturer_Name" value="STMicroelectronics" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="LM317T" constant="no" />
+<attribute name="Description" value="Standard Regulator 1.2V to 37V 1.5A STMicroelectronics LM317T, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220" constant="no" />
+<attribute name="Height" value="4.6mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10A10-T" prefix="D">
+<description>&lt;b&gt;Rectifiers Silicon Rectifier R6,10A,1000V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="10A10-T" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="DIOAD4425W130L885D885">
+<connects>
+<connect gate="G$1" pin="K" pad="1" />
+<connect gate="G$1" pin="A" pad="2" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="583-10A10" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Rectron/10A10-T?qs=%252BtLcN0raKGV1HP7oOwMisg%3D%3D" constant="no" />
+<attribute name="Manufacturer_Name" value="Rectron" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="10A10-T" constant="no" />
+<attribute name="Description" value="Rectifiers Silicon Rectifier R6,10A,1000V" constant="no" />
+<attribute name="Height" value="mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TYN608RG" prefix="Q">
+<description>&lt;b&gt;STMICROELECTRONICS - TYN608RG - Thyristor, 600 V, 15 mA, 5 A, 8 A, TO-220AB, 3 Pins&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00002270.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TYN608RG" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="TO270P460X1020X2008-3P">
+<connects>
+<connect gate="G$1" pin="K" pad="1" />
+<connect gate="G$1" pin="A" pad="2" />
+<connect gate="G$1" pin="G" pad="3" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="511-TYN608" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/TYN608RG?qs=nKw3P5Zvyeo6xazhIIbUlQ%3D%3D" constant="no" />
+<attribute name="Manufacturer_Name" value="STMicroelectronics" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="TYN608RG" constant="no" />
+<attribute name="Description" value="STMICROELECTRONICS - TYN608RG - Thyristor, 600 V, 15 mA, 5 A, 8 A, TO-220AB, 3 Pins" constant="no" />
+<attribute name="Height" value="4.6mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

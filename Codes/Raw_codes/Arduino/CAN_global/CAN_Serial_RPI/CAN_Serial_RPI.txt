@@ -1,0 +1,106 @@
+import serial
+
+ser= serial.Serial('/dev/ttyAMA1',115200,timeout=0.001)
+ser.flush()
+
+x=[0]*30
+y=[0]*16
+lect=[0]*16
+ref=[0]*8
+i=0
+j=0
+n=0
+coma=0;ite=0
+paso=4
+
+print ('Iniciando')
+while True:
+    if(ser.in_waiting>0):
+        #line= ser.readline().decode('ascii').rstrip()
+        #print(line)
+        if(coma>15):
+            paso=paso+1
+        
+        if (paso>3):
+            c=ser.read().decode('ascii').rstrip()             
+            
+        #print(c)
+        if(c==";"):
+            paso=0
+            coma=0
+            while coma<16:
+                c=ser.read().decode('ascii').rstrip()
+                if(c==';'):
+                    coma=coma+1
+                if coma<16: 
+                    if ite<1:
+                        vector=c
+                    else:
+                        vector=vector+c
+                
+                ite=ite+1
+            #print(vector)
+            #print("fin vector")
+            ite=0
+            x=vector.split(";")
+            while(i<16):
+                y[i]=x[i].split("#")
+                i=i+1
+                
+            while n<i:
+                ind=int(y[n][0])-1
+                lect[ind]=int(y[n][1])
+                n=n+1
+            i=0
+            n=0
+            print(lect)
+        #x=line.split(";")
+        #y=list(map(int,x))
+        #cant=len(y)
+
+            if (lect[0]>4000)or(lect[1]>4000):
+                ref[0]=1
+            else:
+                ref[0]=0
+            
+            if (lect[2]>4000)or(lect[3]>4000):
+                ref[1]=1
+            else:
+                ref[1]=0
+            
+            if (lect[4]>4000)or(lect[5]>4000):
+                ref[2]=1
+            else:
+                ref[2]=0
+            
+            if (lect[6]>4000)or(lect[7]>4000):
+                ref[3]=1
+            else:
+                ref[3]=0
+            
+            if (lect[8]>4000)or(lect[9]>4000):
+                ref[4]=1
+            else:
+                ref[4]=0
+            
+            if (lect[10]>4000)or(lect[11]>4000):
+                ref[5]=1
+            else:
+                ref[5]=0
+            
+            if (lect[12]>4000)or(lect[13]>4000):
+                ref[6]=1
+            else:
+                ref[6]=0
+            
+            if (lect[14]>4000)or(lect[15]>4000):
+                ref[7]=1
+            else:
+                ref[7]=0
+          
+            print(ref)
+            buf = "A%d;%d;%d;%d;%d;%d;%d;%d;B" % (ref[0],ref[1],ref[2],ref[3],ref[4],ref[5],ref[6],ref[7])
+            ser.write(buf.encode())
+    
+ser.close()
+print ('Fin')

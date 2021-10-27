@@ -1,0 +1,70 @@
+from bluetooth import *
+
+def input_and_send():
+    print("\nType something\n")
+    while True:
+        data = input()
+        if len(data) == 0: break
+        sock_mod8.send(data)
+        sock_mod8.send("\n")
+        
+def rx_and_echo():
+    
+    while True:
+        data2 = input()
+        if data2=='g':
+            sock_mod7.send(data2.encode('ascii'))
+            data = sock_mod7.recv(buf_size).decode('ascii')
+            if data:
+                print(data)
+        
+        if data2=='h':
+            sock_mod8.send(data2.encode('ascii'))
+            data = sock_mod8.recv(buf_size).decode('ascii')
+            if data:
+                print(data)
+                
+            
+#MAC address of ESP32
+addr_intermediario = "AC:67:B2:3B:C8:EE"
+addr7= "AC:67:B2:3B:FF:52"
+addr8= "AC:67:B2:3B:E0:1E"
+#uuid = "94f39d29-7d6d-437d-973b-fba39e49d4ee"
+#service_matches = find_service( uuid = uuid, address = addr )
+mod7_con = find_service( address = addr7 )
+mod8_con = find_service( address = addr8 )
+
+
+buf_size = 1024
+"""
+if len(service_matches) == 0:
+    print("couldn't find the SampleServer service =(")
+    sys.exit(0)
+
+for s in range(len(service_matches)):
+    print("\nservice_matches: [" + str(s) + "]:")
+    print(service_matches[s])"""
+
+mod7_inf = mod7_con[0];port_mod7 = mod7_inf["port"];name_mod7 = mod7_inf["name"]
+host_mod7 = mod7_inf["host"]
+
+mod8_inf = mod8_con[0];port_mod8 = mod8_inf["port"];name_mod8 = mod8_inf["name"]
+host_mod8 = mod8_inf["host"]
+
+port_mod7=1
+port_mod8=1
+print("connecting to \"%s\" on %s, port %s" % (name_mod7, host_mod7, port_mod7))
+print("connecting to \"%s\" on %s, port %s" % (name_mod8, host_mod8, port_mod8))
+
+# Create the client socket
+sock_mod7=BluetoothSocket(RFCOMM);sock_mod7.connect((host_mod7, port_mod7))
+sock_mod8=BluetoothSocket(RFCOMM);sock_mod8.connect((host_mod8, port_mod8))
+
+
+print("connected")
+
+#input_and_send()
+rx_and_echo()
+
+sock.close()
+print("\n--- bye ---\n")

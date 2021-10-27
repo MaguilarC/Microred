@@ -1,0 +1,12 @@
+import serial
+
+arduino = serial.Serial('/dev/ttyAMA1', 9600)
+print('Iniciando')
+
+i=0
+while i<5:
+      i=i+1;
+      comando= input('Introduce un comando: ')
+      arduino.write(comando.encode())
+arduino.close()
+print('Fin')
