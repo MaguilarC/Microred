@@ -1,7 +1,16 @@
-Para ejecutar la interfaz grafica se deben agregar
+Para ejecutar la interfaz grafica se debe descargar 
+la carpeta "Interfaz grafica" y ejecutar el archivo
+.mlapp  desde el entorno de Matlab, además de agregar
 dos ubicaciones al entorno de Matlab a traves de
 las sentencias:
 
 addpath('ruta de ubicacion\Interfaz grafica')
 
 addpath('ruta de ubicacion\Interfaz grafica\icon')
+
+----------------------------------------------------
+
+La carpeta "Codes" de esta misma ubicación contiene
+los códigos de programación de los ESP32 que hacen
+compatible su funcionamiento en conjunto con la 
+interfaz gráfica.
